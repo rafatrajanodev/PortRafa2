@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --lightgray: #f5f5f5;
+  --mediumgray: #3c3b3b;
+  --lorange: #f27935;
+  --midorange: #c2571b;
+  --darkorange: #72320e;
+  --othergray: #2e2e2e;
+  --darkgray: #161313;
+  --purpleishgray: #2B2730;
+}
+body {
+  text-overflow: unset;
+}
+
+.navmenu {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  height: 100vh;
+  width: 340px;
+  font-size: 10px;
+  background-color: var(--purpleishgray);
+}
+.iconrafa {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin: 94px 0px 20px 24px;
+}
+.titulorafa {
+  display: flex;
+}
+/* petala ao lado do nome */
+.petalaamarela {
+  width: 35px;
+  position: absolute;
+  right: 114px;
+  top: 173px;
+}
+.nomerafa {
+  margin: 0 0 0 26px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--lightgray);
+}
+.infotwitter {
+  display: flex;
+  margin: 15px 0 0 30px;
+}
+/* mdi:twitter */
+.logotwitter {
+  width: 20px;
+}
+/* @yinitialrafa */
+.nicktwitter {
+  display: flex;
+  font-size: 13px;
+  margin: 5px 0 0 0;
+  color: var(--lightgray);
+}
+.resumorafa {
+  display: flex;
+  font-size: 10px;
+  line-height: 20px;
+  max-width: 88%;
+  font-style: italic;
+  margin: 25px 2px 0 35px;
+  color: var(--lightgray);
+}
+.floramarela {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  right: 153px;
+  top: 350px;
+  bottom: 80px;
+  
+ 
+}
+
+.menup {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin: 43px 10px 26px 0;
+  float: right;
+  font-weight: 800;
+  gap: 25px;
+}
+.li-teste{
+  border-bottom: 1px var(--purpleishgray) solid;
+}
+.li-teste:hover{
+  border-bottom: 1px var(--midorange) solid;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* estabelecer a caixinha*/
+.main-link {
+  display: block;
+  color: var(--lightgray);
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  padding: 10px 80px 10px 40px;
+}
+/* mouse em cima do link*/
+.main-link:hover {
+  color: var(--midorange);
+}
+
+.florvermelha{
+  position: absolute;
+  width: 35px;
+  top: 560px;
+  right: 137px;
+}
+.footernav {
+  display: flex;
+  text-align: center;
+  color: var(--lightgray);
+  line-height: 15px;
+  margin: 75px 10px 0 10px;
+  font-style: italic;
+}
+.iconsocial {
+  display: flex;
+  align-content: center;
+  margin: 25px 25px 25px 25px;
+  gap: 10px;
+}
+.logosocial{
+  width: 24px;
+}
+
+.imagens {
+  display: flex;
+  padding-top: 90px;
+  margin: 0px 20px 0px 50px;
+}
+.leftimage {
+  max-width: 60%;
+
+}
+/* 4 imgs da esquerda*/
+.four-img {
+  display: flex;
+  gap: 15px;
+  /* max-width: 72%; */
+}
+.four-img .img{
+  width: 23.5%;
+  flex: 0 0 0 23%;
+}
+
+/* img abaixo*/
+.oneimage {
+  display: flex;
+  width: 100%;
+}
+.imagealone {
+  margin: 5px 0 0 0;
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.imageright {
+  display: flex;
+  margin-left: 100px;
+  height: 100%;
+}
+.navimg {
+  display: flex;
+}
+.linksimagens {
+  display: flex;
+  gap: 12px;
+  margin: 30px 10px 0 750px;
+}
+.linkimg {
+  color: var(--mediumgray);
+  font-weight: 700;
+  font-size: 20px;
+}
+.linkimg:hover {
+  color: var(--lorange);
+}
+.footer {
+  margin: 50px 25px 20px 25px;
+}
