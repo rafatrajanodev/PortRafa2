@@ -1,0 +1,44 @@
+.modal{
+    background-color: #161313cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.card{
+    background-color: var(--purpleishgray);
+    display: flex;
+    /* max-width: 1200px;
+    max-height: 1000px; */
+    width: 70vw;
+    height: 90vh;
+}
+.card .mostrar-imagem{
+    width: 80%;
+    background: #000;
+}
+.card .mostrar-imagem .imgmodal{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card .desc-imagem{
+    width: 700px;
+}
+.card .desc-imagem .btnfecharcontainer{
+    
+}
+.card .desc-imagem .btnfecharcontainer .btnfechar{
+    color: var(--lightgray);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 25px;
+    right: 52px;
+    
+    
+}
