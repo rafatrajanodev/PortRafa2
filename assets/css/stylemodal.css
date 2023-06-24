@@ -9,7 +9,7 @@
     z-index: 1000;
 }
 .card{
-    background-color: var(--purpleishgray);
+    background-color: var(--darkgray);
     display: flex;
     /* max-width: 1200px;
     max-height: 1000px; */
@@ -18,7 +18,7 @@
 }
 .card .mostrar-imagem{
     width: 80%;
-    background: #000;
+    background: var(--darkgray);
 }
 .card .mostrar-imagem .imgmodal{
     width: 100%;
@@ -28,8 +28,22 @@
 .card .desc-imagem{
     width: 700px;
 }
+.card .desc-imagem .desc{
+    margin: 30px 0 0 0;
+    color: var(--lightgray);
+}
+.card .desc-imagem .desc .tituloarte{
+    color: var(--lightgray);
+    font-size: 25px;
+    font-weight: 700;
+}
+.card .desc-imagem .desc .textdesc{
+    margin: 60px 0 0 0;
+    text-decoration: none;
+    font-size: 13px;
+}
 .card .desc-imagem .btnfecharcontainer{
-    
+    width: 30px;
 }
 .card .desc-imagem .btnfecharcontainer .btnfechar{
     color: var(--lightgray);
@@ -41,4 +55,11 @@
     right: 52px;
     
     
+}
+.card .florvermelhamodal{
+width: 30px;
+height: 30px;
+position: absolute;
+top: 97px;
+right: 550px;
 }
