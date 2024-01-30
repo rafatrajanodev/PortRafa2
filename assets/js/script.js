@@ -21,3 +21,4 @@ var btnFecharModal = document.querySelector(".btnfecharcontainer");
 btnFecharModal.addEventListener("click", function() {
   modal.classList.remove("show");
 })
+

@@ -15,6 +15,7 @@
 }
 body {
   text-overflow: unset;
+  background-color: #312E37;
 }
 
 .navmenu {
@@ -141,18 +142,23 @@ body {
   margin: 0px 20px 0px 50px;
 }
 .leftimage {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   max-width: 60%;
 
 }
 /* 4 imgs da esquerda*/
 .four-img {
   display: flex;
-  gap: 15px;
+  
+  justify-content: space-between;
   /* max-width: 72%; */
 }
 .four-img .img{
   width: 23.5%;
   flex: 0 0 0 23%;
+  object-fit: cover;
 }
 
 /* img abaixo*/
@@ -161,10 +167,9 @@ body {
   width: 100%;
 }
 .imagealone {
-  margin: 5px 0 0 0;
   flex: 0 0 100%;
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .imageright {
@@ -181,7 +186,7 @@ body {
   margin: 30px 10px 0 750px;
 }
 .linkimg {
-  color: var(--mediumgray);
+  color: var(--lightgray);
   font-weight: 700;
   font-size: 20px;
 }
