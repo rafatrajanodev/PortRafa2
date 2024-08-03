@@ -22,3 +22,10 @@ btnFecharModal.addEventListener("click", function() {
   modal.classList.remove("show");
 })
 
+// Abrir menu
+let menuMobile = document.querySelector('.menu-icon');
+
+menuMobile.addEventListener('click', function() {
+  let menu = document.querySelector('.navmenu');
+  menu.classList.toggle('active');
+})

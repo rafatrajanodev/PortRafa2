@@ -27,6 +27,7 @@ body {
   font-size: 10px;
   background-color: var(--purpleishgray);
 }
+
 .iconrafa {
   display: flex;
   width: 70px;
@@ -199,4 +200,90 @@ body {
 
 .d-none{
   display: none;
+}
+
+.navmenu-mobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  margin-bottom: -75px;
+}
+.navmenu-mobile .iconLogo{
+  width: 50px;
+  height: 50px;
+}
+
+.navmenu-mobile .wrap-menu-icon {
+  position: relative; 
+  width: 40px; 
+  height: 40px;
+}
+.navmenu-mobile .wrap-menu-icon .menu-icon{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  position: absolute;
+  z-index: 99;
+}
+
+
+@media (max-width: 1200px)
+{
+  .navmenu{
+    width: 250px;
+  
+  }
+  .imagens{
+    flex-direction: column;
+
+  }
+  .leftimage{
+
+    max-width: 100%;
+  }
+  .four-img{
+    flex-wrap: wrap;
+  }
+  .four-img .img {
+    width: 49%;
+    flex: 0 0 0 49%;
+    margin-top: 10px;
+  }
+  .imagealone{
+
+    margin-top: 0px;
+  }
+  .imageright{
+    width: 60%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width:450px){
+    .navmenu-mobile {
+      display: flex;
+    }
+    .navmenu{
+      width:0px;
+      right: 0;
+      position: absolute;
+      transition: width 0.3s ease;
+    }
+    .navmenu.active{
+      width: 250px;
+      position: fixed;
+      right: 0;
+      transition: width 0.3s ease;
+    }
+    .navimg{
+      display:none;
+    }
+    .imagens {
+      margin: 0px 15px;
+    }
+    .imageright{
+       width: 100%;
+    }
 }
